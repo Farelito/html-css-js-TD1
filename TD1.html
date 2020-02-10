@@ -1,16 +1,69 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>TD1-Addresse IP</title>
+    <center>
+            <img src="subnet3.png" alt="Bienvenue sur Ma Calculatrice en ligne"
+	        width="1150"
+            height="450">
+	 
+	        </img>
+	</center>
+    <title>Calculatrice IP</title>
+    <meta charset="UTF-8">
+    <title>TD1-Addresse IP</title>
  
 </head>
 <body>
-
+      <center>
+	
+        <header>Calculatrice IP
+		
+	        <b></b>
+		    <h1></h1>
+	   
+	    <text>Cette calculatrice IP a pour but de faciliter la gestion des masques réseaux dans une infrastructures. <br>
+		Donc, si vous avez une adresse IP et un masque réseau, quel que soit son fromat, vous pouvez utiliser la calculatrice générale ci-dessous,<br>
+		et ainsi vérifier si 2 adresses sont bien dans le même réseau ou non, et par conséquent soi elles peuvent utiliser la même gateway ou non, les mêmes accès réseaux. </text>
+	    <br></br>
+		
+		<form>
+		<p>
+		
+	    Adresse IP <input id="Adresse IP"/>
+	    
+	 
+	    <br></br>
+		
+		<var>
+		
+		    <div id="ip4"> Masque </div>
+		       
+	    </var>
+		
+		<br></br>
+		
+		<var>
+		
+	        <div id="ip2">Net ID :</div>
+			
+		        
+	    </var>
+		
+		
+	    <br></br>
+	    <div id="ip3"> Host ID : </div>
+		 
+		<br></br>
+		<button> calculer</button>
+		</form>
+		</header>
+	</center>
+	
 	<div id="ip1">...</div>
 	<div id="ip2">...</div>
 	
 	 <script src="td1.js"> </script>
+	 <input type:"button" value:"Calculer"  onclick:"sumvalue()" > 
   
 </body>
 </html>
