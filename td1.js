@@ -15,7 +15,10 @@ part4=99;
 
 var newlIP = part1+"."+part2+"."+part3+"."+part4;
 
-document.write(orginalIP);
-document.write("<br>");
-document.write(newlIP);
+document.getElementById("ip1").innerHTML=orginalIP;
+document.getElementById("ip2").innerHTML=newlIP;
+
+// document.write(orginalIP);
+// document.write("<br>");
+// document.write(newlIP);
 
